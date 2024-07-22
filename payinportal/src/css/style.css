@@ -1,0 +1,79 @@
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-group {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-fund {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #344767;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #D81B60; */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    /* background-color: #b00544; */
+}
+
+.bold {
+    font-weight: bold;
+    color: #344767;
+}
+
+.tbl_container {
+    width: 100%;
+    height: auto; /* Allow the container to expand with its content */
+    overflow: visible; /* Ensure the container itself does not handle scrolling */
+}
+  
+/* Optional: Ensure the table inside the container takes full width */
+.tbl_innr_box {
+    width: 100%;
+}
+
+.MuiDataGrid-root .MuiDataGrid-main {
+    position: static;
+}
+
+a {
+    cursor: pointer;
+}
+
+.parsley-errors-list {
+    color: red;
+    margin-bottom: 0;
+}
